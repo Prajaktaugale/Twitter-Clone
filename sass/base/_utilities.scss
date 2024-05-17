@@ -1,0 +1,45 @@
+.margin__top--small{
+    margin-top: 2rem;
+}
+
+.margin__top--medium{
+    margin-top: 4rem;
+}
+
+.margin__top--big{
+    margin-top: 8rem;
+}
+
+.margin__bottom--large{
+    margin-top: 10rem;
+}
+
+.margin__bottom--small{
+    margin-bottom: 2rem;
+}
+
+.margin__bottom--medium{
+    margin-bottom: 4rem;
+}
+
+.margin__bottom--big{
+    margin-bottom: 8rem;
+}
+
+.margin__bottom--large{
+    margin-bottom: 10rem;
+}
+
+.center__content{
+    margin: 0 auto;
+}
+
+#error{
+    font-size: 16px;
+    color: red !important;
+}
+
+.default__color{
+    filter: brightness(0) saturate(100%) invert(45%) sepia(51%) saturate(778%)
+        hue-rotate(157deg) brightness(94%) contrast(96%);
+}

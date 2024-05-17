@@ -1,0 +1,39 @@
+.header__signup{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    align-items: center;
+    .signup__page--btn{
+        display: block;
+        width: 100%;
+    }
+    .signup__page--logo{
+        @include default-color;
+    }
+    &--logo{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    &--form{
+        input{
+            display: block;
+            font-size: 1.5rem;
+            border-radius: .5rem;
+            border: none;
+            outline: 2px solid rgba(128, 128, 128, 0.555);
+            padding: 1.3rem 1rem;
+            margin-bottom: 2rem;
+            width: 100%;
+            transition: all .5rem;
+            &:focus{
+                outline: 2px solid $color-primary;
+            }
+        }
+    }
+
+    #have__ac{
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-top: 1rem;
+    }
+}

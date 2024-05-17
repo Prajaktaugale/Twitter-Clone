@@ -1,0 +1,62 @@
+.tweet{
+    display: flex;
+    border-top: 1px solid $color-grey;
+    padding: 1rem;
+    border-bottom: 1px solid $color-grey;
+    &__user-logo{
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        margin-right: 1rem;
+    }
+    &__header{
+        display: flex;
+        position: relative;
+    }
+    &__person--name{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-right: 1rem;
+        color: #14171a;
+    }
+    &__username{
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        color: #5b7083;
+    }
+    &__publish--time{
+        font-size: 1.5rem;
+        color: #5b7083;
+    }
+    &__content{
+        font-size: 1.5rem;
+    }
+
+    &__menu{
+        position: absolute;
+        top: 0;
+        right: 2rem;
+    }
+    // ? Tweet Actions
+    &__actions{
+        .action__icon{
+            width: 2rem;
+            height: auto;
+        }
+        display: flex;
+        justify-content: space-around;
+        .comment{
+
+        }
+        .like{
+
+        }
+        .retweet{
+
+        }
+        .share{
+
+        }
+
+    }
+}
